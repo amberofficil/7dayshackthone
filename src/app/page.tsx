@@ -4,6 +4,8 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import Footer from "./components/footer";
 import Product from "./products/page";
+import Latest from "./products/latest";
+import Trending from "./products/trendind";
 
 
 
@@ -18,6 +20,8 @@ export default function Home() {
       <Header/>
       <Hero/>
       <Product/>
+      <Latest/>
+      <Trending/>
       <Footer/>
     </div>
   );
